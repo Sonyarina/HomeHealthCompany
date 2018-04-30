@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Screen Margins -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default Text Size for Company Information and Details -->
+    <dimen name="details_text_size">15sp</dimen>
+
+    <!-- Logo Padding -->
+    <dimen name="logo_padding_left">70dp</dimen>
+    <dimen name="logo_padding_right">70dp</dimen>
+    <dimen name="logo_padding_top">10dp</dimen>
+
+    <!-- Company Description (info text)-->
+    <dimen name="company_description_padding_bottom">4dp</dimen>
+    <dimen name="company_description_margin_bottom">8dp</dimen>
+
+    <!-- Padding on Hours of Operation Table -->
+    <dimen name="less_details_bottom_padding">2dp</dimen>
+    <dimen name="linear_layout_padding_bottom">8dp</dimen>
+    <dimen name="linear_layout_padding_left">65dp</dimen>
+
+    <!-- Divider Dimensions -->
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="divider_margin_left">20dp</dimen>
+    <dimen name="divider_margin_right">60dp</dimen>
+
+    <!-- Section Titles  -->
+    <dimen name="section_title_drawable_padding">20dp</dimen>
+    <dimen name="section_title_padding_left">20dp</dimen>
+    <dimen name="section_title_padding_top">8dp</dimen>
+    <dimen name="section_title_padding_bottom">4dp</dimen>
+
+    <!-- Card Detail Text  -->
+    <dimen name="card_details_padding_left">65dp</dimen>
+    <dimen name="card_details_padding_bottom">2dp</dimen>
+
+    <!-- More Info Text  -->
+    <dimen name="more_info_padding_left">65dp</dimen>
+    <dimen name="more_info_padding_bottom">12dp</dimen>
+
+    <!-- Hours Detail Text  -->
+    <dimen name="hours_detail_padding_right">10dp</dimen>
+    <dimen name="hours_detail_padding_bottom_and_top">1dp</dimen>
+
+    <!-- Card Style Linear Layout  -->
+    <dimen name="card_style_ll_padding_left">40dp</dimen>
+    <dimen name="card_style_ll_padding_bottom">2dp</dimen>
+</resources>

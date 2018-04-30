@@ -6,27 +6,28 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/details_text_size</item>
         <item name="colorControlHighlight">@color/colorAccent</item>
     </style>
 
     <style name="divider_style">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">1dp</item>
-        <item name="android:layout_marginLeft">20dp</item>
-        <item name="android:layout_marginRight">60dp</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:layout_marginLeft">@dimen/divider_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/divider_margin_right</item>
         <item name="android:background">@color/divider</item>
     </style>
 
-    <style name="card_text">
+    <style name="section_title_text">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:drawablePadding">20dp</item>
-        <item name="android:paddingLeft">20dp</item>
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:paddingBottom">4dp</item>
+        <item name="android:drawablePadding">@dimen/section_title_drawable_padding</item>
+        <item name="android:paddingLeft">@dimen/section_title_padding_left</item>
+        <item name="android:paddingTop">@dimen/section_title_padding_top</item>
+        <item name="android:paddingBottom">@dimen/section_title_padding_bottom</item>
         <item name="android:textColor">@color/primaryTextColor</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/details_text_size</item>
         <item name="android:fontFamily" tools:targetApi="16">sans-serif</item>
     </style>
 
@@ -34,21 +35,21 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingLeft">65dp</item>
-        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">@dimen/card_details_padding_left</item>
+        <item name="android:paddingBottom">@dimen/card_details_padding_bottom</item>
         <item name="android:textColor">@color/secondaryTextColor</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/details_text_size</item>
         <item name="android:fontFamily" tools:targetApi="16">sans-serif</item>
     </style>
 
     <style name="hours_detail_view">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingRight">10dp</item>
-        <item name="android:paddingTop">1dp</item>
-        <item name="android:paddingBottom">1dp</item>
+        <item name="android:paddingRight">@dimen/hours_detail_padding_right</item>
+        <item name="android:paddingTop">@dimen/hours_detail_padding_bottom_and_top</item>
+        <item name="android:paddingBottom">@dimen/hours_detail_padding_bottom_and_top</item>
         <item name="android:textColor">@color/secondaryTextColor</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/details_text_size</item>
         <item name="android:fontFamily" tools:targetApi="16">sans-serif</item>
     </style>
 
@@ -56,17 +57,17 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:paddingLeft">65dp</item>
-        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">@dimen/more_info_padding_left</item>
+        <item name="android:paddingBottom">@dimen/more_info_padding_bottom</item>
         <item name="android:textColor">@color/accentLinkColor</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/details_text_size</item>
         <item name="android:fontFamily" tools:targetApi="16">sans-serif</item>
     </style>
 
     <style name="card_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingLeft">40dp</item>
+        <item name="android:paddingLeft">@dimen/card_style_ll_padding_left</item>
         <item name="android:elevation" tools:targetApi="21">2dp</item>
         <item name="android:background">#ffffff</item>
         <item name="android:gravity">center_vertical</item>
@@ -75,19 +76,19 @@
     <style name="logo_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingLeft">70dp</item>
-        <item name="android:paddingRight">70dp</item>
-        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">@dimen/logo_padding_left</item>
+        <item name="android:paddingRight">@dimen/logo_padding_right</item>
+        <item name="android:paddingTop">@dimen/logo_padding_top</item>
     </style>
 
     <style name="infotext">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:paddingBottom">4dp</item>
-        <item name="android:paddingLeft">20dp</item>
-        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/company_description_margin_bottom</item>
+        <item name="android:paddingBottom">@dimen/company_description_padding_bottom</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">@dimen/details_text_size</item>
         <item name="android:textColor">@color/colorPrimaryLight</item>
         <item name="android:fontFamily" tools:targetApi="16">sans-serif</item>
     </style>

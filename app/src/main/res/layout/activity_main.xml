@@ -28,9 +28,6 @@
 
             <TextView
                 style="@style/infotext"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 android:text="@string/company_info" />
         </LinearLayout>
 
@@ -44,7 +41,7 @@
             android:visibility="visible">
 
             <TextView
-                style="@style/card_text"
+                style="@style/section_title_text"
                 android:drawableLeft="@drawable/ic_place_black_24dp"
                 android:drawableStart="@drawable/ic_place_black_24dp"
                 android:drawableTint="@color/primaryTextColor"
@@ -55,7 +52,6 @@
             <TextView
                 style="@style/card_detail_text"
                 android:onClick="getDirections"
-                android:paddingBottom="2dp"
                 android:text="@string/address" />
 
             <TextView
@@ -67,7 +63,7 @@
 
             <!--Hours of Operation-->
             <TextView
-                style="@style/card_text"
+                style="@style/section_title_text"
                 android:drawableLeft="@drawable/ic_access_time_black_24dp"
                 android:drawableStart="@drawable/ic_access_time_black_24dp"
                 android:drawableTint="@color/primaryTextColor"
@@ -76,7 +72,6 @@
 
             <TextView
                 style="@style/card_detail_text"
-                android:paddingBottom="2dp"
                 android:text="@string/hours_weekdays" />
 
             <TextView
@@ -91,14 +86,13 @@
                 android:id="@+id/lessDetails"
                 style="@style/more_info_text"
                 android:onClick="viewLessHours"
-                android:paddingBottom="2dp"
+                android:paddingBottom="@dimen/less_details_bottom_padding"
                 android:text="@string/hours_collapse"
                 android:visibility="gone" />
 
             <TextView
                 android:id="@+id/nurseHours"
                 style="@style/card_detail_text"
-                android:paddingBottom="2dp"
                 android:text="@string/nurse_hours"
                 android:visibility="gone" />
 
@@ -106,9 +100,9 @@
                 android:id="@+id/dailyHours"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingBottom="8dp"
-                android:paddingLeft="65dp"
-                android:paddingStart="65dp"
+                android:paddingBottom="@dimen/linear_layout_padding_bottom"
+                android:paddingLeft="@dimen/linear_layout_padding_left"
+                android:paddingStart="@dimen/linear_layout_padding_left"
                 android:visibility="gone">
 
                 <TextView
@@ -127,7 +121,7 @@
             <View style="@style/divider_style" />
 
             <TextView
-                style="@style/card_text"
+                style="@style/section_title_text"
                 android:drawableLeft="@drawable/ic_local_phone_black_24dp"
                 android:drawableStart="@drawable/ic_local_phone_black_24dp"
                 android:drawableTint="@color/primaryTextColor"
@@ -137,7 +131,6 @@
             <TextView
                 style="@style/card_detail_text"
                 android:onClick="callNumber"
-                android:paddingBottom="2dp"
                 android:text="@string/phone_number" />
 
             <TextView
@@ -148,7 +141,7 @@
             <View style="@style/divider_style" />
 
             <TextView
-                style="@style/card_text"
+                style="@style/section_title_text"
                 android:drawableLeft="@drawable/ic_public_black_24dp"
                 android:drawableStart="@drawable/ic_public_black_24dp"
                 android:drawableTint="@color/primaryTextColor"
