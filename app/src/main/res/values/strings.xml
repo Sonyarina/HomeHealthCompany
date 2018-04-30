@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Caring Hands United</string>
+    <string name="phone_number">(888) 832&#8211;1550</string>
+    <string name="phone">tel:18888321550</string>
+    <string name="address">1447 Peachtree St NE #330\nAtlanta, GA 30309</string>
+    <string name="company_info">Home Health Care Provider</string>
+    <string name="company_image">Company Logo</string>
+    <string name="website_info">www.caringhandsunited.com</string>
+    <string name="url_website">https://www.caringhandsunited.com</string>
+    <string name="url_locations">https://caringhandsunited.com/info/our-locations/</string>
+    <string name="send_message">Send Us A Message</string>
+    <string name="send_message_to">appmessage@caringhandsunited.org</string>
+    <string name="email_subject">Message From App User</string>
+    <string name="call_us_txt">Call Us Toll Free</string>
+    <string name="visit_web_txt">Visit Us Online</string>
+    <string name="corp_address_text">Corporate Address</string>
+    <string name="view_locations">See More Locations</string>
+    <string name="hours_title">Hours of Operation</string>
+    <string name="hours_weekdays">8:00 AM to 4:00 PM Weekdays</string>
+    <string name="hours_more">More Details</string>
+    <string name="hours_collapse">Less Details</string>
+    <string name="days">Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday</string>
+    <string name="hours_each_day">08:00 AM&#8212;08:00 PM\n08:00 AM&#8212;08:00 PM\n08:00 AM&#8212;08:00 PM\n08:00 AM&#8212;08:00 PM\n08:00 AM&#8212;08:00 PM\nClosed\nClosed</string>
+    <string name="nurse_hours">Care Coordinator Available 24/7</string>
+    <string name="geolocation">geo:0,0?q=33.7944741,-84.3887129(Caring Hands United)</string>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ededed">
+
+        <LinearLayout
+            android:id="@+id/company_header"
+            style="@style/company_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/logo_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/company_image"
+                android:src="@drawable/logo_medium" />
+
+            <TextView
+                style="@style/infotext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/company_info" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/company_info"
+            style="@style/card_style"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/company_header"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                style="@style/card_text"
+                android:drawableLeft="@drawable/ic_place_black_24dp"
+                android:drawableStart="@drawable/ic_place_black_24dp"
+                android:drawableTint="@color/primaryTextColor"
+                android:onClick="getDirections"
+                android:text="@string/corp_address_text"
+                tools:targetApi="23" />
+
+            <TextView
+                style="@style/card_detail_text"
+                android:onClick="getDirections"
+                android:paddingBottom="2dp"
+                android:text="@string/address" />
+
+            <TextView
+                style="@style/more_info_text"
+                android:onClick="viewLocations"
+                android:text="@string/view_locations" />
+
+            <View style="@style/divider_style" />
+
+            <!--Hours of Operation-->
+            <TextView
+                style="@style/card_text"
+                android:drawableLeft="@drawable/ic_access_time_black_24dp"
+                android:drawableStart="@drawable/ic_access_time_black_24dp"
+                android:drawableTint="@color/primaryTextColor"
+                android:text="@string/hours_title"
+                tools:targetApi="23" />
+
+            <TextView
+                style="@style/card_detail_text"
+                android:paddingBottom="2dp"
+                android:text="@string/hours_weekdays" />
+
+            <TextView
+                android:id="@+id/moreDetails"
+                style="@style/more_info_text"
+                android:onClick="viewAllHours"
+                android:text="@string/hours_more"
+                android:visibility="visible" />
+
+            <!--Hours of Operation Additional Information-->
+            <TextView
+                android:id="@+id/lessDetails"
+                style="@style/more_info_text"
+                android:onClick="viewLessHours"
+                android:paddingBottom="2dp"
+                android:text="@string/hours_collapse"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/nurseHours"
+                style="@style/card_detail_text"
+                android:paddingBottom="2dp"
+                android:text="@string/nurse_hours"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/dailyHours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:paddingLeft="65dp"
+                android:paddingStart="65dp"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/hours_detail_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/days" />
+
+                <TextView
+                    style="@style/hours_detail_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hours_each_day" />
+            </LinearLayout>
+
+            <View style="@style/divider_style" />
+
+            <TextView
+                style="@style/card_text"
+                android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+                android:drawableStart="@drawable/ic_local_phone_black_24dp"
+                android:drawableTint="@color/primaryTextColor"
+                android:text="@string/call_us_txt"
+                tools:targetApi="23" />
+
+            <TextView
+                style="@style/card_detail_text"
+                android:onClick="callNumber"
+                android:paddingBottom="2dp"
+                android:text="@string/phone_number" />
+
+            <TextView
+                style="@style/more_info_text"
+                android:onClick="sendMessage"
+                android:text="@string/send_message" />
+
+            <View style="@style/divider_style" />
+
+            <TextView
+                style="@style/card_text"
+                android:drawableLeft="@drawable/ic_public_black_24dp"
+                android:drawableStart="@drawable/ic_public_black_24dp"
+                android:drawableTint="@color/primaryTextColor"
+                android:onClick="visitWebsite"
+                android:text="@string/visit_web_txt"
+                tools:targetApi="23" />
+
+            <TextView
+                android:id="@+id/website"
+                style="@style/card_detail_text"
+                android:onClick="visitWebsite"
+                android:text="@string/website_info" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
